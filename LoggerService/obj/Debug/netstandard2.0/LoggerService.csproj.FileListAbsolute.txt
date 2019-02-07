@@ -1,0 +1,14 @@
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/LoggerService.deps.json
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/LoggerService.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/LoggerService.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/Contracts.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/Contracts.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.csprojAssemblyReference.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.csproj.CoreCompileInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.AssemblyInfoInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.AssemblyInfo.cs
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.csproj.CopyComplete
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/obj/Debug/netstandard2.0/LoggerService.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/Entities.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/LoggerService/bin/Debug/netstandard2.0/Entities.pdb

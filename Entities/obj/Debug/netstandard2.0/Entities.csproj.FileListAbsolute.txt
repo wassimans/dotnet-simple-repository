@@ -1,0 +1,9 @@
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/bin/Debug/netstandard2.0/Entities.deps.json
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/bin/Debug/netstandard2.0/Entities.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/bin/Debug/netstandard2.0/Entities.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.csproj.CoreCompileInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfoInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.AssemblyInfo.cs
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Entities/obj/Debug/netstandard2.0/Entities.csprojAssemblyReference.cache

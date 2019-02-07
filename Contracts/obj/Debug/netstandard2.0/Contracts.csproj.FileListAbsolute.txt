@@ -1,0 +1,12 @@
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/bin/Debug/netstandard2.0/Contracts.deps.json
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/bin/Debug/netstandard2.0/Contracts.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/bin/Debug/netstandard2.0/Contracts.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.csproj.CoreCompileInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.AssemblyInfoInputs.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.AssemblyInfo.cs
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.csprojAssemblyReference.cache
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/bin/Debug/netstandard2.0/Entities.dll
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/bin/Debug/netstandard2.0/Entities.pdb
+/home/wassim/Documents/Learn/DotNetCore/AccountOwnerServer/Contracts/obj/Debug/netstandard2.0/Contracts.csproj.CopyComplete
