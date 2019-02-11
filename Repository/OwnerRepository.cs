@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Contracts;
 using Entities;
+using Entities.ExtendedModels;
 using Entities.Models;
 
 namespace Repository
@@ -16,6 +18,21 @@ namespace Repository
         public IEnumerable<Owner> GetAllOwners()
         {
             return FindAll().OrderBy(owner => owner.Name);
+        }
+
+        public Owner GetOwnerById(Guid ownerId)
+        {
+            return FindByCondition(owner => owner.OwnerId.Equals(ownerId))
+                    .DefaultIfEmpty(new Owner())
+                    .FirstOrDefault();
+        }
+
+        public OwnerExtended GetOwnerWithDetails(Guid ownerId)
+        {
+            return new OwnerExtended(GetOwnerById(ownerId))
+            {
+                Accounts = RepositoryContext.Accounts.Where(a => a.OwnerId == ownerId)
+            };
         }
     }
 }
