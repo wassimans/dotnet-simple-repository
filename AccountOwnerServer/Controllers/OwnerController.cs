@@ -1,5 +1,6 @@
 using System;
 using Contracts;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AccountOwnerServer.Controllers
@@ -31,7 +32,7 @@ namespace AccountOwnerServer.Controllers
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "OwnerById")]
         public IActionResult GetOwnerById(Guid id)
         {
             try
@@ -77,6 +78,33 @@ namespace AccountOwnerServer.Controllers
             {
                 _logger.LogError($"Something went wrong inside GetOwnerWithDetails action: {ex.Message}");
                 return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult CreateOwner([FromBody]Owner owner)
+        {
+            try
+            {
+                if (owner == null)
+                {
+                    _logger.LogError("Owner object sent from client is null");
+                    return BadRequest("Owner object is null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Invalid owner object sent from client.");
+                    return BadRequest("Invalid model object");
+                }
+
+                _repository.Owner.CreateOwner(owner);
+                return CreatedAtRoute("OwnerById", new { id = owner.OwnerId}, owner);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside CreateOwner action: {ex.Message}");
+                return StatusCode(500, "Interal server error");
             }
         }
     }
