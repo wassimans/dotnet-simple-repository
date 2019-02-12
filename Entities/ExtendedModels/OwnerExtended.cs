@@ -4,13 +4,14 @@ using Entities.Models;
 
 namespace Entities.ExtendedModels
 {
-    public class OwnerExtended
+    public class OwnerExtended : IEntity
     {
         public Guid OwnerId { get; set; }
         public string Name { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
         public IEnumerable<Account> Accounts { get; set; }
+        public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public OwnerExtended()
         {

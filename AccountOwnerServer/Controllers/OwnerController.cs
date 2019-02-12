@@ -1,5 +1,6 @@
 using System;
 using Contracts;
+using Entities.Extensions;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -39,7 +40,7 @@ namespace AccountOwnerServer.Controllers
             {
                 var result = _repository.Owner.GetOwnerById(id);
 
-                if (result.OwnerId.Equals(Guid.Empty))
+                if (result.IsEmptyObject())
                 {
                     _logger.LogError($"Owner with id: {id}, hasn't been found in the database");
                     return NotFound();
@@ -64,7 +65,7 @@ namespace AccountOwnerServer.Controllers
             {
                 var result  = _repository.Owner.GetOwnerWithDetails(id);
 
-                if (result.OwnerId.Equals(Guid.Empty))
+                if (result.IsEmptyObject())
                 {
                     _logger.LogInfo($"Owner with id: {id}, hasn't been found in the database");
                     return NotFound();
@@ -86,7 +87,7 @@ namespace AccountOwnerServer.Controllers
         {
             try
             {
-                if (owner == null)
+                if (owner.IsObjectNull())
                 {
                     _logger.LogError("Owner object sent from client is null");
                     return BadRequest("Owner object is null");

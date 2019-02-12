@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Entities.Models
 {
     [Table("Owner")]
-    public class Owner
+    public class Owner : IEntity
     {
         [Key]
         public Guid OwnerId { get; set; }
@@ -20,5 +20,6 @@ namespace Entities.Models
         [Required(ErrorMessage = "Address is required")]
         [StringLength(100, ErrorMessage = "Address cannot be longer than 100 characters")]
         public string Address { get; set; }
+        public Guid Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
 }
